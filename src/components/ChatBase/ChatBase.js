@@ -14,7 +14,17 @@ const handleSignout = async () => {
 
 const ChatBase = () => {
   return (
-    <div>
+    <div className='Main-Container'>
+      <div className='User-Bg'></div>
+      <div className='Friend-List-Bg'></div>
+      <div className='Friend-Bg'></div>
+      <div className='Message-Bg'></div>
+      <input
+      className='Message-textbox'
+      id='textbox'
+      placeholder='Write a message'
+      type='textbox'
+      ></input>
       <button onClick={handleSignout}></button>
     </div>
   );

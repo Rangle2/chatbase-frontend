@@ -1,0 +1,61 @@
+.Main-Container{
+    margin-left: 25rem;
+}
+
+.User-Bg {
+    margin-left: 30px;
+    width: 366px;
+    height: 56px;
+    background-color: #3D3B40;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    
+}
+
+.Friend-List-Bg{
+    margin-left: 30px;
+    width: 366px;
+    height: 1050px;
+    background-color: #3D3B40;
+    border-radius: 8px;
+}
+
+.Friend-Bg{
+    margin-left: 30px;
+    width: 1036px;
+    height: 57px;
+    background-color: #3D3B40;
+    border-radius: 8px;
+    position: relative;
+    bottom: 91.4vh;
+    left: 32vh;
+}
+
+.Message-Bg{
+    margin-left: 30px;
+    width: 1020px;
+    height: 73px;
+    background-color: #393940;
+    border-radius: 8px;
+    position: relative;
+    bottom: 12.4vh;
+    left: 32vh;
+}
+
+.Message-textbox{
+    position: fixed;
+    font-size: 18px;
+    bottom: 7vh;
+    left: 80vh;
+    padding: 15px;
+    padding-right: 38vh;
+    background-color: #595959;
+    margin-bottom: 25px;
+    border: 0px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: none;
+    color: white;
+    
+}

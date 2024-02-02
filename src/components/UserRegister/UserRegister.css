@@ -1,3 +1,5 @@
+
+/* */
 .Container-login {
     display: flex;
     flex-direction: column; 
@@ -37,7 +39,7 @@ form {
     align-items: center;
 }
 
-input {
+input[id="register"] {
     position: relative;
     font-size: 18px;
     bottom: 20vh;

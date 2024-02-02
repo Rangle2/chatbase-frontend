@@ -28,11 +28,10 @@ const UserRegister = () => {
             <form onSubmit={handleSubmit}>
 
 
-
                 <input
-                    type="text"
+                    type="username"
                     placeholder='Username'
-                    id="username"
+                    id="register"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                 />
@@ -41,7 +40,7 @@ const UserRegister = () => {
                 <input
                     type="password"
                     placeholder='Password'
-                    id="password"
+                    id="register"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                 />
@@ -49,7 +48,7 @@ const UserRegister = () => {
                 <input
                     type="password"
                     placeholder='Password Again'
-                    id="confirmPassword"
+                    id="register"
                     value={confirmPassword}
                     onChange={(e) => setConfirmPassword(e.target.value)}
                 />
@@ -58,7 +57,7 @@ const UserRegister = () => {
                 <input
                     type="email"
                     placeholder='Email'
-                    id="email"
+                    id="register"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                 />

@@ -50,6 +50,7 @@ body {
 }
 
 .login-with-google-btn {
+    cursor: pointer;
     transition: background-color .3s, box-shadow .3s;
     padding: 19px 19px 19px 51px;
     border: none;
@@ -90,6 +91,7 @@ body {
 }
 
 .login-with-chatbase-btn {
+    cursor: pointer;
     left: 5rem;
     position: relative;
     transition: background-color .3s, box-shadow .3s;
