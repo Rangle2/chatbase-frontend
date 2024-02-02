@@ -20,18 +20,35 @@ const ChatBase = () => {
       <img className='User-Profile' width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/cat-profile.png" alt="cat-profile"/>
       <label className='User-Profile-Name'>User</label>
       <img className='Add-Friend' width="40" height="40" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/add--v1.png" alt="add--v1"/>
-      <img className='User-Settings' width="40" height="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/settings.png" alt="settings"/>
-
+      <img className='User-Settings' onClick={handleSignout} width="40" height="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/settings.png" alt="settings"/>
       <div className='Friend-List-Bg'></div>
+      <input
+      className='Search-Textbox'
+      id='search'
+      placeholder='Search'
+      type='textbox'
+      ></input>
+      <img className='Search-Icon' width="32" height="32" src="https://img.icons8.com/windows/32/FFFFFF/search--v1.png" alt="search--v1"/>
+   
+
+      
       <div className='Friend-Bg'></div>
+      <img className='Friend-Profile' width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/cat-profile.png" alt="cat-profile"/>
+      <label className='Friend-Profile-Name'>Friend</label>
+     
       <div className='Message-Bg'></div>
+      <img className='Add-Photo-Btn' width="40" height="40" src="https://img.icons8.com/android/24/FFFFFF/plus.png" alt="plus"/>
+      
       <input
       className='Message-textbox'
       id='textbox'
       placeholder='Write a message'
       type='textbox'
       ></input>
-      <button onClick={handleSignout}></button>
+      
+
+     <img className='Add-Smile-Btn' width="40" height="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/fat-emoji.png" alt="fat-emoji"/>
+     <img className='Send-Message-Btn'width="40" height="40" src="https://img.icons8.com/material-sharp/24/FFFFFF/sent.png" alt="sent"/>
     </div>
   );
 }

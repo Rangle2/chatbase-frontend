@@ -38,7 +38,7 @@
     background-color: #393940;
     border-radius: 8px;
     position: relative;
-    bottom: 9.7rem;
+    bottom: 8.7rem;
     left: 24rem;
 }
 
@@ -46,19 +46,19 @@
     position: relative;
     display: flex;
     font-size: 18px;
-    bottom: 13.6rem;
+    bottom: 12.6rem;
     flex-direction: column;
     left: 35rem;
     padding: 15px;
     padding-right: 30rem;
     background-color: #595959;
-   
     border: 0px solid #ccc;
     border-radius: 8px;
     outline: none;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-shadow: none;
     color: white;
+    text-indent: 50px;
     
 }
 
@@ -70,7 +70,23 @@
 }
 .User-Profile-Name{
     position: fixed;
-    left: 33rem;
+    left: 32rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 40px;
+    font-size: 36px;
+    color: white;
+}
+
+.Friend-Profile{
+    position: fixed;
+    left: 76rem;
+    top: 34px;
+    cursor: pointer;    
+}
+
+.Friend-Profile-Name{
+    position: fixed;
+    left: 80rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     top: 40px;
     font-size: 36px;
@@ -89,4 +105,51 @@
     left: 46rem;
     top: 40px;
     cursor: pointer;
+}
+
+.Add-Photo-Btn{
+    position: fixed;
+    left: 55rem;
+    top: 67.6rem;
+    cursor: pointer;
+}
+
+.Add-Smile-Btn{
+    position: fixed;
+    left: 61rem;
+    top: 67.6rem;
+    cursor: pointer;
+}
+
+.Send-Message-Btn{
+    position: fixed;
+    left: 108rem;
+    top: 67.6rem;
+    cursor: pointer;
+}
+
+.Search-Textbox{
+    position: fixed;
+    left: 27.9rem;
+    top: 110px;
+    cursor: pointer;
+    
+    background-color: #25252B;
+    padding: 10px;
+  
+    border: 0px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: none;
+    color: white;
+    text-indent: 50px;
+    font-size: 24px;
+}
+
+.Search-Icon{
+    position: fixed;
+    left: 28.9rem;
+    top: 118.5px;
+
 }
