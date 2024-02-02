@@ -21,3 +21,4 @@ This project is not affiliated with any company, and there is no intention for f
 ## Contact
 
 For inquiries or further information, feel free to contact the project owner:
+[mertpolat8999@gmail.com]
