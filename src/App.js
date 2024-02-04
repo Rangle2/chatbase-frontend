@@ -4,6 +4,7 @@ import UserLogin from './components/UserLogin/UserLogin';
 import ChatBase from './components/ChatBase/ChatBase';
 import "./App.css";
 import UserRegister from './components/UserRegister/UserRegistration';
+import ChatUI from './components/ChatBase/ChatUI';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<UserLogin />} />
           <Route path='/register' element={<UserRegister />} />
+          <Route path='/chat' element={<ChatUI />} />
          
         </Routes>
       </div>
