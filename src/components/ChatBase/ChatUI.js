@@ -1,5 +1,9 @@
 import * as React from "react";
 import { Box, Typography, Card } from "@mui/material";
+<<<<<<< HEAD
+=======
+import "./ChatBase.css";
+>>>>>>> bf8f211 (feat: Added new friendship feature)
 
 
 const ChatUI = ({ userMessage, handleSendMessage, handleInputChange, messages, setMessages }) => {
@@ -39,7 +43,11 @@ const ChatUI = ({ userMessage, handleSendMessage, handleInputChange, messages, s
                     onClick={() => {
                         handleSendMessage();
                         // Update the messages array in ChatUI
+<<<<<<< HEAD
                         setMessages((prevMessages) => [...prevMessages, { id: prevMessages.length + 1, text: userMessage, sender: "friend" }]);
+=======
+                        setMessages((prevMessages) => [...prevMessages, { id: prevMessages.length + 1, text: userMessage, sender: "user" }]);
+>>>>>>> bf8f211 (feat: Added new friendship feature)
                     }}
                     width="40"
                     height="40"
