@@ -19,16 +19,10 @@
     border-radius: 8px;
 }
 
-<<<<<<< HEAD
-.Friend-Bg{
-    margin-left: 30px;
-    width: 1036px;
-=======
 
 .Friend-Bg{
     margin-left: 30px;
     width: 1100px;
->>>>>>> bf8f211 (feat: Added new friendship feature)
     height: 57px;
     background-color: #3D3B40;
     border-radius: 8px;
@@ -48,11 +42,7 @@
     position: relative;
     top: 2.3rem;
     left: 2rem;
-<<<<<<< HEAD
-    transform: rotate(0.1deg);
-=======
     transform: rotate(-0.2deg);
->>>>>>> bf8f211 (feat: Added new friendship feature)
 }
 
 .Message-textbox {
@@ -73,11 +63,7 @@
     box-shadow: none; /* Consider if you really want to remove the box shadow */
     color: white;
     text-indent: 10px;
-<<<<<<< HEAD
-    transform: rotate(0.1deg);
-=======
     transform: rotate(-0.2deg);
->>>>>>> bf8f211 (feat: Added new friendship feature)
 }
 
 .User-Profile{
@@ -95,13 +81,6 @@
     color: white;
 }
 
-<<<<<<< HEAD
-.Contact-Bg {
-    position: fixed;
-    cursor: pointer;
-    width: 330px;
-    height: 56px;
-=======
 .Contact-Item {
     position: relative;
     padding-top: 10px;
@@ -133,41 +112,15 @@
     cursor: pointer;
     width: 330px;
     height: 930px;
->>>>>>> bf8f211 (feat: Added new friendship feature)
     left: 27.8rem;
     top: 180px;
     background-color: #2D2D33;
     border-radius: 8px;
-<<<<<<< HEAD
-    margin-bottom: 10px; 
-
-    &:hover{
-        background-color: #25252B;
-    }
-}
-
-.Contact-Profile{
-    position: fixed;
-    left: 28.8rem;
-    top: 182px;
-}
-
-.Contact-Name{
-    cursor: pointer;
-    position: fixed;
-    left: 34.8rem;
-    top: 186px;
-    font-size: 36px;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-=======
     overflow: auto;
 }
 
 
 
->>>>>>> bf8f211 (feat: Added new friendship feature)
 
 
 .Friend-Profile{
